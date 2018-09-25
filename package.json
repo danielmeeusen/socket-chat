@@ -1,0 +1,27 @@
+{
+  "name": "socket-chat",
+  "version": "1.0.0",
+  "description": "chat app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "set NODE_ENV=development && nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielmeeusen/socket-chat.git"
+  },
+  "author": "me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielmeeusen/socket-chat/issues"
+  },
+  "homepage": "https://github.com/danielmeeusen/socket-chat#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4",
+    "socket.io": "2.0.3"
+  }
+}
